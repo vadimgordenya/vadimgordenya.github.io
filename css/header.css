@@ -1,0 +1,63 @@
+.header {
+	min-height: 115px;
+	width: 100%;
+	background-color: #eff3f7;
+	border-bottom: 5px solid black;
+	opacity: 0.8;
+}
+.wrapp__header {
+	width: 90%;
+	margin: 0 5%;
+}
+.logo,
+.header__nav {
+	display: inline-block;
+	width: 49.8%;
+}
+.header__nav {}
+.logo {
+	font-family: 'Molle', cursive;
+}
+.logo__text {
+	width: 100%;
+	font-size: 40px;
+	color: #58697a;
+	display: block;
+}
+.nav {
+	width: 100%;
+	line-height: 125px;
+	padding-left: 51%;
+}
+.nav li {
+	display: inline-block;
+}
+.vk,
+.twitter,
+.facebook,
+.github {
+	font-size: 25px;
+	padding: 15px;
+	border-radius: 50%;
+	background-color: #58697a;
+	margin-right: 15px;
+	color: #eff3f7;
+}
+.facebook {
+	padding: 15px 20px 15px 20px;
+}
+.github {
+	padding: 15px 17px 15px 17px; 
+}
+.vk:hover {
+	background-color: #3ba8c0;
+}
+.twitter:hover {
+	background-color: #1c9ded;
+}
+.facebook:hover {
+	background-color: #3b5998;
+}
+.github:hover {
+	background-color: #333;
+}

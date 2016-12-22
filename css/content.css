@@ -1,0 +1,405 @@
+.content {
+	width: 80%;
+	margin: 0 10%;
+	min-height: 500px;
+}
+.left__content,
+.right__content {
+	display: inline-block;
+	padding-top: 40px;
+	vertical-align: top;
+}
+.left__content {
+	width: 30%;
+}
+.right__content {
+	width: 69%;
+}
+.menu {
+	width: 100%;
+	padding-bottom: 23px; 
+}
+.menu__list {
+	width: 93%;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #eff3f7;
+	margin: 0 auto;
+}
+.menu__list li a {
+	display: block;
+	padding: 28px 0 28px 28px;
+	font-size: 23px;
+	color: #a7acb8;
+	font-weight: bold;
+	border-bottom: 2px solid #3ba8c0;
+}
+.menu__list li a:hover {
+	background-color: #3ba8c0;
+	color: #fff;
+}
+.menu__list li a:focus {
+	background-color: #3ba8c0;
+	color: #fff;
+}
+.contact {
+	min-height: 200px;
+	width: 93%;
+	padding-bottom: 23px;
+	margin: 0 auto;
+}
+.contact__list {
+	width: 100%;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #eff3f7;
+}
+.contact__list > li:first-child {
+	display: block;
+	padding: 13px 0 13px 28px;
+	font-size: 23px;
+	color: #fff;
+	background-color: #3ba8c0;
+	font-weight: bold;
+	border-bottom: 2px solid #3ba8c0;
+	font-size: 21px;
+}
+.contact__list li a{
+	display: block;
+	padding: 13px 0 13px 28px;
+	font-size: 17px;
+	color: #fff;
+	font-weight: bold;
+	border-bottom: 2px solid #3ba8c0;
+}
+.contact__list li a:hover {
+	border: 1px solid black;
+}
+.contact__list li a:focus {
+	opacity: 0.8;
+	color: #fff;
+	border: 1px solid black;
+}
+.mail,
+.phone,
+.skype {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+
+/*RIGHT CONTENT*/
+
+.main__info,
+.experience,
+.education {
+	display: block;
+	width: 90%;
+	margin: 0 5%;
+}
+.main__info {
+	
+	background-color: #eff3f7;
+	border-radius: 5px 5px 5px 5px;
+	padding-bottom: 50px;
+	margin-bottom: 27px;
+}
+.info__title {
+	width: 50%;
+	padding: 23px 0 23px 23px;
+	font-size: 27px;
+	font-weight: bold;
+	color: #3ba8c0;
+	border-bottom: 2px solid #3ba8c0;
+}
+.info__title,
+.info__text-user {
+	display: block;
+	padding-top: 25px;
+}
+.info__text-user {
+	width: 100%;
+}
+.user__foto,
+.user__info {
+	display: inline-block;
+	vertical-align: top;
+}
+.user__foto {
+	width: 30%;
+}
+.user__info {
+	padding-left: 30px;
+	width: 69%;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #6e767e;
+}
+.user__info .bold {
+	font-size: 17px;
+	color: #4a545d;
+	padding-right: 20px;
+}
+.foto {
+	margin-left: 40px;
+	height: 150px;
+	width: 150px;
+	border: 6px solid #3ba8c0;
+	border-radius: 50%;
+}
+.key__skills,
+.wrapp__skills {
+	display: inline-block;
+	vertical-align: top;
+	width: 49.7;
+}
+.skills {
+	padding: 5px 15px 5px 15px;
+	width: auto;
+	background-color: #2e8ca2;
+	margin-bottom: 8px;
+	line-height: 35px;
+	margin-right: 8px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.experience {
+	background-color: #eff3f7;
+	border-radius: 5px 5px 5px 5px;
+	padding-bottom: 50px;
+	margin-bottom: 27px;
+}
+
+.briefcase {
+	width: 20%;
+	padding-left: 60px;
+}
+.text__user {
+	width: 79%;
+	font-size: 17px;
+	font-weight: bold;
+	color: #58697a;
+}
+.briefcase,
+.text__user {
+	display: inline-block;
+	vertical-align: top;
+}
+.briefcase {
+	font-size: 36px;
+	color: #58697a;
+}
+
+.education {
+	background-color: #eff3f7;
+	border-radius: 5px 5px 5px 5px;
+	padding-bottom: 50px;
+	margin-bottom: 40px;
+}
+
+.text1,
+.input__top {
+	display: block;
+	padding-bottom: 15px;
+}
+.text2,
+.input__bottom {
+	display: block;
+	padding-bottom: 15px;
+	margin-left: 26px;
+}
+.wrapp__info {
+	width: 80%;
+	margin: 0 10%;
+}
+
+.text1,
+.text2,
+.text3 {
+	font-size: 17px;
+	font-weight: bold;
+	color: #959aa8;
+}
+.btn {
+	margin-top: 25px;
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #3ba8c0;
+	border: none;
+	cursor: pointer;
+}
+.btn > a {
+	color: #fff;
+	font-weight: bold;
+}
+.btn:hover {
+	background: none;
+	border: 2px solid #3ba8c0;
+	color: #3ba8c0;
+}
+.btn:hover a{
+	color: #3ba8c0;
+}
+
+.text3 {
+	display: block;
+	padding-bottom: 15px;
+}
+label {
+	display: inline-block;
+	width: 49%;
+}
+label {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+.text__write {
+	min-width: 99%;
+	max-width: 99%;
+	border: 2px solid #3ba8c0; 
+	border-radius: 5px;	
+	background: none;
+}
+
+/*INPUT*/
+input {
+	background: none;
+	height: 60px;
+	width: 90%;
+	border: 2px solid #3ba8c0;
+	box-sizing: border-box;
+	padding-left: 20px;
+	display: inline-block;
+	border-radius: 5px;
+}
+input[placeholder]
+{
+    padding-left: 20px;
+}
+
+/* сдвиг placeholder-а вправо при фокусе*/
+
+.input2::-webkit-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2::-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2:-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2:-ms-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 0;
+}
+.input2:focus::-webkit-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+.input2:focus::-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+.input2:focus:-moz-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+.input2:focus:-ms-input-placeholder
+{
+    transition: text-indent .8s ease;
+    text-indent: 500px;
+}
+
+.title__info {
+	width: 100%;
+	background-color: #3ba8c0;
+	height: 83px;
+	border-radius: 10px 10px 0 0;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	line-height: 83px;
+}
+
+
+/*MY-WORKS*/
+.column__1,
+.column__2,
+.column__3,
+.column__4 {
+	display: inline-block;
+	width: 32%;
+}
+.main__info {
+}
+.first__img,
+.blogna__img,
+.blog__img,
+.task__img {
+	margin-left: 20px;
+	margin-top: 20px;
+	display: block;
+	width: 90%;
+	height: 90%;
+	opacity: 0.7;
+}
+
+.first__img:hover {
+	opacity: 1;
+}
+.blogna__img:hover {
+	opacity: 1;
+}
+.blog__img:hover {
+	opacity: 1;
+}
+.task__img:hover {
+	opacity: 1;
+}
+
+.column__1,
+.column__2,
+.column__3,
+.column__4 {
+	position: relative;
+}
+.column__1:after,
+.column__2:after,
+.column__3:after,
+.column__4:after {
+	display: none;
+	content: "ПЕРЕЙТИ";
+	position: absolute;
+	top: 50%;
+	left: 30%; right: 30%;
+	z-index: 999;
+	background-color: #3ba8c0;
+	border-radius: 5px;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 0 auto;
+}
+.column__1:hover:after,
+.column__2:hover:after,
+.column__3:hover:after,
+.column__4:hover:after {
+	display: block;
+}
+.link__active {
+	color: red;
+	background-color: #3ba8c0;
+}

@@ -1,0 +1,20 @@
+.footer {
+	height: 77px;
+	width: 100%;
+	position: relative;
+	margin-top: -77px;
+	background-color: #eff3f7;
+}
+.wrapp__footer {
+	width: 80%;
+	margin: 0 10%;
+	text-align: center;
+	padding-top: 25px;
+	vertical-align: middle;
+	color: #555f67;
+	font-weight: bold;
+}
+.wrapp__footer a {
+	color: #555f67;
+	font-weight: bold;
+}

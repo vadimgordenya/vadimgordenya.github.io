@@ -1,0 +1,43 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(content.css);
+@import url(footer.css);
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+body {
+	background-image: url("../img/background.png");
+	background-repeat: repeat;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	width: 100%;
+	position: relative;
+}
+.empty {
+	width: 100%;
+	position: relative;
+	height: 77px;
+}
+.menu-trigger {
+	display: none;
+}
