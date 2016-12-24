@@ -375,6 +375,7 @@ input[placeholder]
 .column__4 {
 	position: relative;
 }
+/*
 .column__1:after,
 .column__2:after,
 .column__3:after,
@@ -393,13 +394,16 @@ input[placeholder]
 	cursor: pointer;
 	margin: 0 auto;
 }
+
 .column__1:hover:after,
 .column__2:hover:after,
 .column__3:hover:after,
 .column__4:hover:after {
 	display: block;
 }
+*/
 .link__active {
 	color: red;
 	background-color: #3ba8c0;
 }
+
