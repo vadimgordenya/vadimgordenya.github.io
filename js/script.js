@@ -1,8 +1,7 @@
-$(window).load(function () {
-        $(".page-bg").css("display", "none");
-	 });
-
  $(document).ready(function(){
+    setTimeout(function() {
+	$(".page-bg").css("display", "none");
+    }, 3000);
    var url=document.location.href;
           $.each($(".menu__link li a"),function(){
     if(this.href==url){$(this).addClass('link__active').css("color","#fff");};
