@@ -1,6 +1,7 @@
 $(window).on('load', function() {
     var $preloader = $(".page-bg");
     $preloader.delay(2000).fadeOut('slow');
+	$('.none').css("display", "block");
 	
 	/*TYPEDJS*/
 	
