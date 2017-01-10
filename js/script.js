@@ -26,6 +26,7 @@ $(document).ready(function(){
 			$('.menu ul').removeAttr('style');
 		 }
 	});      
+    $('.carousel').carousel();
 });
 
 
