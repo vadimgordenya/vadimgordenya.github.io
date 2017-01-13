@@ -3,7 +3,6 @@ $(window).on('load', function() {
     $preloader.delay(2000).fadeOut('slow');
 	$('.none').css("display", "block");
 	
-	$('.carousel').carousel();
 	/*TYPEDJS*/
 	
     $(function() {
@@ -13,6 +12,7 @@ $(window).on('load', function() {
             startDelay: 2500
         });
     });
+	$('.carousel').carousel();
 }); 
 $(document).ready(function(){
    var url=document.location.href;
