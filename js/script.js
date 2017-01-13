@@ -1,4 +1,6 @@
 $(window).on('load', function() {
+    $('.carousel').carousel();
+    
     var $preloader = $(".page-bg");
     $preloader.delay(2000).fadeOut('slow');
 	$('.none').css("display", "block");
@@ -26,7 +28,6 @@ $(document).ready(function(){
 			$('.menu ul').removeAttr('style');
 		 }
 	});      
-    $('.carousel').carousel();
 });
 
 
