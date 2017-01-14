@@ -149,3 +149,9 @@ p {
         background: #3399FF;
     }
 }
+/*TYPED CURSOR*/
+
+.typed-cursor {
+    display: none;
+    opacity: 1;
+}
