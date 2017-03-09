@@ -12,7 +12,7 @@ $(window).on('load', function() {
             startDelay: 2500
         });
     });
-	$('.carousel').carousel();
+	 //$('.carousel').carousel();
 }); 
 $(document).ready(function(){
    var url=document.location.href;
