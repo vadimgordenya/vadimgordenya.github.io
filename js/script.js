@@ -13,9 +13,9 @@ $(window).on('load', function() {
             startDelay: 2500
         });
     });
-	 jQuery(".carousel").carousel();
 }); 
 $(document).ready(function(){
+  $(".carousel").carousel();
    var url=document.location.href;
           $.each($(".menu__link li a"),function(){
     if(this.href==url){$(this).addClass('link__active').css("color","#fff");};
