@@ -1,3 +1,4 @@
+var jQuery = $;
 $(window).on('load', function() {
     var $preloader = $(".page-bg");
     $preloader.delay(2000).fadeOut('slow');
@@ -12,7 +13,7 @@ $(window).on('load', function() {
             startDelay: 2500
         });
     });
-	 //$('.carousel').carousel();
+	 jQuery(".carousel").carousel();
 }); 
 $(document).ready(function(){
    var url=document.location.href;
